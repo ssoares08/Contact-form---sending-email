@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html>
+
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Untitled Document</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!--fontawesome-->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!--main css-->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!--main css-->
+    <link href="css/responsive.css" rel="stylesheet">
+    
+  </head>
+
+  <body>
+<!-- contato -->
+    <section id="contact_area" class="section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2 class="cursive"><span class="sectiontitle">Contato</span></h2>
+                </div>
+            </div>
+            <div id="main">
+              <div class="emailform">
+                <form method="post" action="contato.php">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input type="text" name="nome" placeholder="Full name" class="full item name" spellcheck="false">
+                    </div>
+
+                    <div class="col-md-6">
+                      <input type="text" name="email" placeholder="Email" class="full item email" spellcheck="false">
+                    </div>
+                  </div>
+
+                  <div class="row indent item">
+                    <input type="text" name="titulo" placeholder="Subject" class="full subject" spellcheck="false">
+                  </div>
+
+                  <div class="row indent item">
+                    <textarea name="texto" class="full msg" placeholder="Message"></textarea>
+                  </div>
+
+                  <div class="row">
+                    <button class="btn-contact" type="submit" value="send">Send</button>
+                    <input type="submit" name="submit" id="submit" value="Submit" />
+                  </div>
+                </form>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- end call to action area (contato)-->
+  </body>
+
+</html>
